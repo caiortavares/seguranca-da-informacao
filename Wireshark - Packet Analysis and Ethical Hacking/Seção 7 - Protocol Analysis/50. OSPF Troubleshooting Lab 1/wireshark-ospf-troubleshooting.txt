@@ -1,1 +1,5 @@
-Ao realizar o diagnóstico de rede referente ao protocolo OSPF, pude identificar que os dispositivos não estão se conectando em virtude de divergência de Area ID - um roteador está como 0.0.0.0, e o segundo como 0.0.0.1, e as senhas possuem divergências. Enquanto uma está como "ospfpass" (tudo minúsculo), a outra está "OSPFpass", parcialmente maiúscula. Essas divergências causam impossibilidade de conexão entre os dispositivos, no caso, roteadores. 
+Ao realizar o diagnóstico de rede referente ao protocolo OSPF, pude identificar que os dispositivos não
+estão se conectando em virtude de divergência de Area ID - um roteador está como 0.0.0.0, e o segundo 
+como 0.0.0.1, e as senhas possuem divergências. Enquanto uma está como "ospfpass" (tudo minúsculo), a
+outra está "OSPFpass", parcialmente maiúscula. Essas divergências causam impossibilidade de conexão 
+entre os dispositivos, no caso, roteadores. 
